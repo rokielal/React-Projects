@@ -1,18 +1,21 @@
 import React from 'react'
-import Project01 from './Projects/1stProject/Project01';
-import Form from './Projects/2ndProject/form';
+import Counter from './Projects/1stProject/Counter';
+import Form from './Projects/2ndProject/Form';
 import Display from './Projects/3rdProject/Display';
 import Toggle from './Projects/4thProject/Toggle';
 import Fetch from './Projects/5thProject/Fetch';
+import TodoApp from './Projects/6thProject/TodoApp';
 
 function App() {
   return (
     <div>
-      {/* <Project01 /> */}
+      {/* <Counter /> */}
       {/* <Form /> */}
       {/* <Display /> */}
       {/* <Toggle /> */}
-      <Fetch />
+      {/* <Fetch /> */}
+      <TodoApp />
+      
     </div>
   )
 }

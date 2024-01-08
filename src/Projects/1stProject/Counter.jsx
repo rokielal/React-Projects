@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import './Project01.css'
 
 
-function Project01() {
+function Counter() {
 
   const [count , setCount] = useState(0)
 
@@ -34,4 +34,4 @@ function Project01() {
   )
 }
 
-export default Project01
+export default Counter
